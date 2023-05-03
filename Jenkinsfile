@@ -7,10 +7,11 @@ pipeline {
                 sh 'ls'
                 echo 'Hello World na7nik'
             }
+            post {
+                always {
+                    echo 'This will always run'
+                }
+            }
         }
-        post {
-        always {
-            echo 'This will always run'
-        }}
     }
 }
