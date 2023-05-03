@@ -7,6 +7,7 @@ pipeline {
             steps {
                 sh 'node --version'
                 sh 'ls'
+                echo 'Hello World na7nik'
             }
         }
     }
