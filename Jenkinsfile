@@ -16,11 +16,7 @@
 // }
 
 pipeline {
-    agent {
-        node {
-            label 'maître'
-        }
-    }
+    agent none
     stages {
         stage('Test') {
             steps {
